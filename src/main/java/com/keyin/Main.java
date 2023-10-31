@@ -10,12 +10,16 @@ public class Main {
         // 2. Adds tasks to user’s to-do lists.
         users[0].addTask("Buy groceries");
         users[0].addTask("Go to the gym");
+        users[0].addTask("Pay bills");
         users[1].addTask("Finish the report");
         users[1].addTask("Attend the meeting");
+        users[1].addTask("Reply to emails");
 
         // 3. Marks tasks as completed.
         users[0].markTaskAsCompleted("Buy groceries");
+        users[0].markTaskAsCompleted("Pay bills");
         users[1].markTaskAsCompleted("Attend the meeting");
+        users[1].markTaskAsCompleted("Reply to emails");
 
         // 4. Prints all tasks for each user.
         for (User user : users) {
